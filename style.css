@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+body {
+  background-image: url("./bkground.jpg");
+  padding: 10;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #dfdfdf;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+#answer-buttons {
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.question {
+  margin-bottom: 20px;
+  display: block;
+}
+.btn-grid {
+  display: flex;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.start-btn,
+.next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn.correct {
+  --hue: var(--hue-correct);
+  color: black;
+}
+
+.btn.wrong {
+  color: bla;
+}
+
+.display btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

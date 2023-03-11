@@ -1,0 +1,5 @@
+For this game I want to make it light game tha alllows a vistor to interact with my code, which in this case will be a game of trivia.
+The sumbhect matter for this is has yet to be determined. 
+The only problem I forsee me having at this time is if a user refreses theiere screen there will be know way to capture previos inputs as this is all broswer based no cookies and random. 
+Once a user have selected a choice they will be told if the answer was correct or incorrect// I dont know if I want to give them the answer or give them a chance to select another answer
+Once the player has been satified with the questions they can choose to simmply exit the game from the browser level.
